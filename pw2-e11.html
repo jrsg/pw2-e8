@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+        
+        <link rel="stylesheet" type="text/css" href="practica10.css" />
+        <script src="practica10.js"></script>        
+    </head>
+
+    <body> 
+        <div class="instrucciones">
+            <h1>JavaScript</h1>
+            <p>
+               Cada ejercicio puede hacer que pongas en práctica diversos temas de JavaScript y a su vez varian en su nivel de dificultad. Codifica la 
+               solución del ejercicio en la función con el mismo nombre, para que al presionar el botón rojo
+               se ejecute tu código.
+           </p>
+        </div>
+<!--
+  ______ _               _      _         __ 
+ |  ____(_)             (_)    (_)       /_ |
+ | |__   _  ___ _ __ ___ _  ___ _  ___    | |
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \   | |
+ | |____| |  __/ | | (__| | (__| | (_) |  | |
+ |______| |\___|_|  \___|_|\___|_|\___/   |_|
+       _/ |                                  
+      |__/                                   
+-->
+        <div class="ejercicio">
+            <div class="temas">Operadores aritméticos</div>
+            <h1>Ejercicio 1</h1>
+            <p>Solicita al usuario 2 números, despliega en una alerta el resultado de la multiplicación entre ambos.</p>
+            <p><b>Nota:</b> utiliza el método <code>prompt()</code> el cual despliega un cuadro de dialogo y le permite al usuario introducir valores</p>
+            
+            <input type="button" onClick="ejercicio1()" value="Resultado" />
+         </div>
+         
+<!--
+  ______ _               _      _         ___  
+ |  ____(_)             (_)    (_)       |__ \ 
+ | |__   _  ___ _ __ ___ _  ___ _  ___      ) |
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \    / / 
+ | |____| |  __/ | | (__| | (__| | (_) |  / /_ 
+ |______| |\___|_|  \___|_|\___|_|\___/  |____|
+       _/ |                                    
+      |__/                                     
+-->     
+         <div class="ejercicio">
+            <div class="temas">Operadores aritméticos, estructuras de control</div>
+            <h1>Ejercicio 2</h1>
+            <p>Solicita un número al usuario y despliega en una alerta el mensaje "Es par" si el número dado es par, "Es impar" para caso contrario.</p>
+            <input type="button" onClick="ejercicio2()" value="Resultado" />
+         </div>
+         
+<!--
+  ______ _               _      _         ____  
+ |  ____(_)             (_)    (_)       |___ \ 
+ | |__   _  ___ _ __ ___ _  ___ _  ___     __) |
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \   |__ < 
+ | |____| |  __/ | | (__| | (__| | (_) |  ___) |
+ |______| |\___|_|  \___|_|\___|_|\___/  |____/ 
+       _/ |                                     
+      |__/                                      
+-->
+         <div class="ejercicio">
+            <div class="temas">Operadores aritméticos</div>
+            <h1>Ejercicio 3</h1>
+            <p>Solicita dos números al usuario, despliega el resultado en el campo correspondiente la suma, resta, multiplicación y división entre ambos números.</p>
+            <input type="button" onClick="ejercicio3()" value="Resultado" /> 
+            
+            <p>
+                <label for="suma">Suma</label>
+                <input type="text" id="suma" readonly="readonly"><br>
+                 
+                <label for="resta">Resta</label> 
+                <input type="text" id="resta" readonly="readonly"><br>
+                
+                <label for="multiplicacion">Multiplicación</label> 
+                <input type="text" id="multiplicacion" readonly="readonly"><br>
+                                
+                <label for="division">División</label>
+                <input type="text" id="division" readonly="readonly">
+           </p>
+         </div>
+
+<!--
+  ______ _               _      _         _  _   
+ |  ____(_)             (_)    (_)       | || |  
+ | |__   _  ___ _ __ ___ _  ___ _  ___   | || |_ 
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \  |__   _|
+ | |____| |  __/ | | (__| | (__| | (_) |    | |  
+ |______| |\___|_|  \___|_|\___|_|\___/     |_|  
+       _/ |                                      
+      |__/                                       
+-->
+         
+         <div class="ejercicio">
+            <div class="temas">Operadores aritméticos, estructuras de control, strings</div>
+            <h1>Ejercicio 4</h1>
+            <p>Solicita un número al usuario, despliega en una alerta el mensaje "El número X es primo" si el número dado es primo (sólo se puede dividir exactamente entre sí mismo y 1), despliega "El número X no es primo" en caso contrario. Sustituye X con el número dado.</p>
+            <input type="button" onClick="ejercicio4()" value="Resultado" />
+         </div>
+         
+<!--
+  ______ _               _      _         _____ 
+ |  ____(_)             (_)    (_)       | ____|
+ | |__   _  ___ _ __ ___ _  ___ _  ___   | |__  
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \  |___ \ 
+ | |____| |  __/ | | (__| | (__| | (_) |  ___) |
+ |______| |\___|_|  \___|_|\___|_|\___/  |____/ 
+       _/ |                                     
+      |__/                                      
+-->
+         
+         <div class="ejercicio">
+            <div class="temas">Operadores aritméticos, estructuras de control, Strings</div>
+            <h1>Ejercicio 5</h1>
+            <p>
+                Solicita un número al usuario, despliega en una alerta el mensaje "Es par" si el número dado es par, 
+                "Es impar" para caso contrario. Valida que el dato introducido por el usuario sea numérico utilizando
+                la función <code>isNaN</code> la cual retorna <code>true</code> si NO es un número.
+            </p>            
+            <input type="button" onClick="ejercicio5()" value="Resultado" />
+         </div>
+         
+<!--
+  ______ _               _      _           __  
+ |  ____(_)             (_)    (_)         / /  
+ | |__   _  ___ _ __ ___ _  ___ _  ___    / /_  
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \  | '_ \ 
+ | |____| |  __/ | | (__| | (__| | (_) | | (_) |
+ |______| |\___|_|  \___|_|\___|_|\___/   \___/ 
+       _/ |                                     
+      |__/                                      
+-->         
+         <div class="ejercicio">
+            <div class="temas">Operadores aritméticos, estructuras de control, ciclos</div>
+            <h1>Ejercicio 6</h1>
+            <p>
+               Solicita un número al usuario y valida que sea entre 3 y 500, en caso de error notificarlo con una alerta 
+               y no realizar ningúna acción después.
+            </p>
+            <p>
+                Despliega en el campo con id secuencia la suceción de números empezando desde el 1 hasta el número dado. 
+                No imprimas los números que sean múltiplos del 3 y ni del 5.
+            </p>            
+            <p>Ejemplo: número dado por usuario <b>10</b>.</p> 
+            <p><code>1<br>2<br>4<br>7<br>8</code></p>
+            
+            <p><b>Nota:</b> agrega un salto de línea después de cada número utilizando la secuencia especial \n</p>
+            
+            <input type="button" onClick="ejercicio6()" value="Resultado" />  
+            
+            <h2>Secuencia</h2>
+            <textarea id="secuencia" cols="40" rows="7"></textarea>
+         </div>
+         
+<!--
+  ______ _               _      _         ______ 
+ |  ____(_)             (_)    (_)       |____  |
+ | |__   _  ___ _ __ ___ _  ___ _  ___       / / 
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \     / /  
+ | |____| |  __/ | | (__| | (__| | (_) |   / /   
+ |______| |\___|_|  \___|_|\___|_|\___/   /_/    
+       _/ |                                      
+      |__/                                       
+-->
+         
+         <div class="ejercicio">
+            <div class="temas">Operadores aritméticos, estructuras de control, strings</div>
+            <h1>Ejercicio 7</h1>
+            <p>
+               Dependiendo al planeta (botón) que seleccione el usuario, pide su peso en kilogramos y  
+               deberás mostrarle en una alerta su peso equivalente en gramos en el planeta seleccionado. 
+               El mensaje deberá decir "Tu peso en PLANETA es de X gramos". La fórmula para calcular el 
+               peso es <em>gravedad</em> * <em>peso en gramos</em>
+           </p>
+           <table class="planetas">
+                <thead>
+                    <tr>
+                        <th>Planeta</th>
+                        <th>Gravedad relativa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Venus</td>
+                        <td>0.78</td>
+                    </tr>
+                    <tr>
+                        <td>Marte</td>
+                        <td>0.39</td>
+                    </tr>
+                    <tr>
+                        <td>Júpiter</td>
+                        <td>2.65</td>
+                    </tr>
+                    <tr>
+                        <td>Saturno</td>
+                        <td>1.17</td>
+                    </tr>
+                    <tr>
+                        <td>Urano</td>
+                        <td>1.05</td>
+                    </tr>
+                    <tr>
+                        <td>Neptuno</td>
+                        <td>1.23</td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="button" class="venus" onClick="ejercicio7()" value="Venus" />   
+            <input type="button" class="marte" onClick="ejercicio7()" value="Marte" />
+            <input type="button" class="jupiter" onClick="ejercicio7()" value="Júpiter" />
+            <input type="button" class="saturno" onClick="ejercicio7()" value="Saturno" />
+            <input type="button" class="urano" onClick="ejercicio7()" value="Urano" />
+            <input type="button" class="neptuno" onClick="ejercicio7()" value="Neptuno" />                      
+         </div>
+         
+<!--
+  ______ _               _      _          ___  
+ |  ____(_)             (_)    (_)        / _ \ 
+ | |__   _  ___ _ __ ___ _  ___ _  ___   | (_) |
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \   > _ < 
+ | |____| |  __/ | | (__| | (__| | (_) | | (_) |
+ |______| |\___|_|  \___|_|\___|_|\___/   \___/ 
+       _/ |                                     
+      |__/                                      
+-->
+         
+         <div class="ejercicio">
+            <div class="temas">Operadores aritméticos, estructuras de control, ciclos, arreglos</div>
+            <h1>Ejercicio 8</h1>
+            <p>
+               Solicita N números al usuario. El programa deberá dejar de pedir números hasta que el usuario 
+               introduzca un valor que no sea numérico. Despliega en una alerta el promedio de los números 
+               dados en una alerta con el mensaje "El promedio de los números introducidos es PROMEDIO".
+            </p>
+            <p>
+                <b>Nota</b>: utiliza ciclos y arreglos para la resolución de este ejercicio. Para verificar si 
+                un dato es numérico utiliza la función <code>isNaN</code> la cual retorna verdadero si el valor 
+                NO es un número.
+            </p>
+            <input type="button" onClick="ejercicio8()" value="Resultado" />
+         </div>
+
+<!--
+  ______ _               _      _          ___  
+ |  ____(_)             (_)    (_)        / _ \ 
+ | |__   _  ___ _ __ ___ _  ___ _  ___   | (_) |
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \   \__, |
+ | |____| |  __/ | | (__| | (__| | (_) |    / / 
+ |______| |\___|_|  \___|_|\___|_|\___/    /_/  
+       _/ |                                     
+      |__/                                      
+-->
+         
+         <div class="ejercicio">
+             <div class="temas">Ciclos, strings, arreglos</div>
+            <h1>Ejercicio 9</h1>
+            <p>
+               Solicita al usuario una cadena y despliegala en el campo <em>Resultado</em> invertida. Ejemplo: "Hola mundo" a "odnum aloH".
+            </p>
+            <p>
+                <b>Nota</b>: utiliza el campo <em>Cadena</em> para tomar el valor escrito por el usuario. El método <code>split("")</code> convierte un <code>String</code> a <code>Array</code> letra por letra.
+            </p>            
+            <input type="button" onClick="ejercicio9()" value="Resultado" /> <br>
+            
+            <p>
+                <label for="string_e9">Cadena</label> 
+                <input type="text" id="string_e9"><br>
+                
+                <label for="resultado_e9">Resultado</label> 
+                <input type="text" id="resultado_e9"  readonly="readonly">
+            </p>
+            
+         </div>
+         
+<!--
+  ______ _               _      _         __  ___  
+ |  ____(_)             (_)    (_)       /_ |/ _ \ 
+ | |__   _  ___ _ __ ___ _  ___ _  ___    | | | | |
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \   | | | | |
+ | |____| |  __/ | | (__| | (__| | (_) |  | | |_| |
+ |______| |\___|_|  \___|_|\___|_|\___/   |_|\___/ 
+       _/ |                                        
+      |__/                                         
+-->
+         
+         <div class="ejercicio">
+             <div class="temas">Estructuras de control, Date</div>
+            <h1>Ejercicio 10</h1>
+            <p>
+               Utilizando la fecha seleccionada por el usuario utilizando el campo de tipo Date, determina si dicha 
+               fecha es futura, pasada o es la de hoy. Despliega en una alerta el resultado.
+            </p>
+            <p>
+                <b>Nota</b>: la ejecución de la función está asignada al evento <code>onChange</code> del campo de tipo <code>Date</code>, el cual 
+                envía como parámetro la fecha recien selecionada por el usuario.
+            </p>
+            <p>
+                <label for="fecha_e10">Fecha</label> 
+                <input type="date" id="fecha_e10" onChange="ejercicio10( this.value )">                            
+            </p>            
+         </div>
+         
+<!--
+  ______ _               _      _         __ __ 
+ |  ____(_)             (_)    (_)       /_ /_ |
+ | |__   _  ___ _ __ ___ _  ___ _  ___    | || |
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \   | || |
+ | |____| |  __/ | | (__| | (__| | (_) |  | || |
+ |______| |\___|_|  \___|_|\___|_|\___/   |_||_|
+       _/ |                                     
+      |__/                                      
+-->
+         
+         <div class="ejercicio">
+             <div class="temas">Estructuras de control, Date</div>
+            <h1>Ejercicio 11</h1>
+            <p>
+               Despliega en una alerta el nombre del mes de la fecha seleccionada por el usuario.
+            </p>
+            <p>
+                <label for="fecha_e11">Fecha</label> 
+                <input type="date" id="fecha_e11" onChange="ejercicio11( this.value )">                            
+            </p>
+            
+         </div>
+         
+<!--
+  ______ _               _      _         __ ___  
+ |  ____(_)             (_)    (_)       /_ |__ \ 
+ | |__   _  ___ _ __ ___ _  ___ _  ___    | |  ) |
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \   | | / / 
+ | |____| |  __/ | | (__| | (__| | (_) |  | |/ /_ 
+ |______| |\___|_|  \___|_|\___|_|\___/   |_|____|
+       _/ |                                       
+      |__/                                        
+-->
+         <div class="ejercicio">
+             <div class="temas">Date, intervalos de tiempo</div>
+            <h1>Ejercicio 12</h1>
+            <p>
+               Crea un reloj digital. Asigna la hora, minutos y segundos a los correspondientes campos de texto.
+            </p>
+            
+            <input type="button" onClick="ejercicio12()" value="Resultado" /> <br>
+            
+            <table class="reloj">
+                <tr>
+                    <td>
+                        <input type="text" id="horas" readonly="readonly" value="00">
+                    </td>
+                    <td>
+                        <input type="text" id="minutos" readonly="readonly" value="00">
+                    </td>
+                    <td>
+                        <input type="text" id="segundos" readonly="readonly" value="00">
+                    </td>
+                </tr>                
+            </table>
+         </div>
+         
+    </body>
+</html>

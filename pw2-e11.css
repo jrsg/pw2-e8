@@ -1,0 +1,130 @@
+body{
+    font-family:sans-serif;
+    font-size:16px;
+    background-color: #eaeaea;
+}
+
+h1{
+    margin:0;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+.instrucciones{
+    margin: 20px auto;
+    padding: 10px 0 10px 0;
+    max-width:600px;      
+}
+
+.instrucciones h1{
+    font-size: 4.0em;
+}
+
+.ejercicio {            
+   background-color: #ffffff;
+   border: 2px solid #eaeaea;                                       
+   margin: 20px auto;
+   padding: 10px 10px 10px 15px;
+   max-width:600px;                
+}
+
+.temas{
+    font-size: 0.90em;
+    color: #c8c8c8;
+    font-style:italic;
+    padding:3px;
+    margin:0;
+    text-align:right;
+}
+
+.ejercicio:hover{
+    border: 2px solid #cccccc;
+}
+
+.ejercicio:hover .temas{
+    color:#000000;
+}
+
+label{
+    font-weight:bold;
+    display:inline-block;
+    margin-bottom:5px;
+    width: 120px;
+}
+
+input[type="button"]{
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #ff0000;
+    border:0px;
+    padding: 10px 15px 10px 15px;                                
+}     
+
+
+input[type="button"]:hover{                
+    background-color: #cccccc;                
+}
+            
+input[type="text"]{
+    padding: 5px 7px;
+    width: 90px;  
+    margin-bottom:5px;              
+}  
+
+input.venus{
+    background-color:#ff00ff;
+} 
+
+input.marte{
+    background-color: #ff8000;
+}
+
+input.jupiter{
+    background-color: #eaea00;
+}
+
+input.saturno{
+    background-color: #8080c0; 
+}
+
+input.urano{
+    background-color: #804000;
+}
+
+input.neptuno{
+    background-color: #408080;   
+}  
+
+table{
+    border-collapse:collapse;
+    margin-bottom: 10px;                
+}          
+
+table.planetas th, table.planetas td{
+    border:1px solid #000000;
+    padding:5px;
+}
+
+table.reloj{
+    background-color: #000000;
+    border: 10px solid #804040;
+    margin: 15px auto;
+}
+
+table.reloj td{
+    width:33%;
+}
+
+table.reloj td input{
+    background-color: #000000;
+    border:0;
+    color:red;
+    font-size: 3.0em;
+    font-family: consolas, monospace;
+    font-weight: bold;
+    height:50px;
+    outline:0;        
+    text-align:center;      
+}
