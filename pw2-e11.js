@@ -36,8 +36,7 @@ function ejercicio2(){
 function ejercicio3(){
     var resultadoSuma = null, resultadoResta = null, resultadoMultiplicacion = null, resultadoDivision = null;
 
-    document.getElementById("resta").value = resultadoResta;
-
+    document.getElementById('suma').value = resultadoSuma;
 }
 
 /*
