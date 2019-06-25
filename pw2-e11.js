@@ -205,5 +205,5 @@ function ejercicio15(){
 
 
 
-    document.getElementById('e15_frase').value = patron;
+    document.getElementById('e15_frase').value;
 }
