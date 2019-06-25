@@ -187,3 +187,23 @@ function ejercicio14(){
 
     document.getElementById('resultado_e14').value = patron;
 }
+
+
+/*
+ ______ _               _      _         __ _____
+ |  ____(_)             (_)    (_)       /_ | ____|
+ | |__   _  ___ _ __ ___ _  ___ _  ___    | | |__
+ |  __| | |/ _ \ '__/ __| |/ __| |/ _ \   | |___ \
+ | |____| |  __/ | | (__| | (__| | (_) |  | |___) |
+ |______| |\___|_|  \___|_|\___|_|\___/   |_|____/
+       _/ |
+      |__/
+* */
+
+function ejercicio15(){
+
+
+
+
+    document.getElementById('e15_frase').value = patron;
+}
